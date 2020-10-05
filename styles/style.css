@@ -127,6 +127,10 @@ footer {
 p {
     border-style:solid black;
 }
+.name {
+    font-size: 1em;
+}
+
   }
   li {
     border-style: solid;
@@ -151,7 +155,4 @@ button {
     background-color: brown;
     margin-top: -.5em;
     justify-content: center;
-}
-.name {
-    font-size: 1em;
 }
