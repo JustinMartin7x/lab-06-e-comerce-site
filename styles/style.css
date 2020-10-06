@@ -29,6 +29,9 @@ body {
 }
 
 main {
+    background-image: url(../assets/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,7 +40,7 @@ main {
 }
 
 section {
-    background-color: var(--color5);
+
     width: 1000px;
     max-width: 80%;
     display: flex;
@@ -48,13 +51,12 @@ section {
     padding-bottom: var(--gutter);
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
-    border: solid 2px var(--color1);
+    
 }
 
 header {
     display: flex;
     justify-content: flex-end;
-    background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
 }
@@ -146,7 +148,7 @@ p {
        
   
 img {
-      margin-left: 1.5em;
+    border-radius: 15px;
       height: 100px;
       width: 150px;
   }
