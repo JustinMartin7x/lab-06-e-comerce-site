@@ -39,11 +39,14 @@ td, th {
 }
 
 th {
-    background-color: aquamarine;
+    background-color: crimson;
+}
+tr:nth-child(even){
+    background-color: burlywood;
 }
 
 tr:nth-child(odd) {
-    background: pink;
+    background: brown;
 }
 
 .total {
