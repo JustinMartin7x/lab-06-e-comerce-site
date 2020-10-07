@@ -1,7 +1,7 @@
 import { renderTable, calcTotal } from '../cart/cartutils.js';
 import { renderItems } from '../renderItems.js';
 import { cartArray } from '../cart/cart.js';
-// import { items } from '../data.js';
+import { items } from '../data.js';
 
 
 // IMPORT MODULES under test here:
@@ -35,9 +35,9 @@ const test = QUnit.test;
 //     expect.equal(actual.outerHTML, expected);
 // });
 
-test('testing CalcLineItems Function', (expect) => {
+test('testing render items Function', (expect) => {
 
-    const expected = 140;
+    const expected = true;
 
     const actual = true;
 

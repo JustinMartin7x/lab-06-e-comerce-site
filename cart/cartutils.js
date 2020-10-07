@@ -1,5 +1,5 @@
 import { items } from '../data.js';
-import { cartArray } from './cart.js';
+import { cartArray, calcTotal } from './cart.js';
 
 
 export function findById(someArray, someId) {
@@ -32,9 +32,9 @@ export function renderTable(cartItem) {
     tr.append(tdName, tdPrice, tdQuantity, tdTotal);
     return tr;
 }
-export function calcTotal(cartArray) {
-    let totalCost = 0;
-    for (let i = 0; i < cartArray.length; i++){
-    const item = cartArray[i];
-        
-}
+
+
+
+const totalCost = calcTotal(cartArray);
+const total = document.querySelectorAll('total');
+total.textContent = `${totalCost}`;
